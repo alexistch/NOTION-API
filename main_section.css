@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
-
-
 .main_section div{
     display: flex;
     justify-content: left;
     flex-direction: column;
     padding: 2em;
     align-items: flex-start; /* Aligne les éléments à gauche */
+}
+
+.main_section{
+    display: flex;
+    justify-content:space-evenly;
     background-image: url("bckg.jpg");
     background-position: center;
-    min-height: 50dvh;
+    min-height: 100vh; /* Occupe toute la hauteur de la page */
     background-size: cover;
     gap: 1em;
     font-family: 'Poppins', sans-serif;
-}
 
+}
 
 .main_section h1 {
     color: white;
@@ -43,13 +45,16 @@
     cursor: pointer;
 }
 
-.photo{
-    max-width: 40px;
+.main_section img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombre légère */
+    margin-left: 2em; /* Espace entre texte et image */
+    margin-top: 150px;
+    margin-right: 100px;
 }
 
-.main_section img {
-    max-width: 200px;
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre légère */
-    margin-left: 2em; /* Espace entre texte et image */
+.contenu_main{
+    margin-top: 140px;
 }

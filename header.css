@@ -7,13 +7,24 @@ header nav{
 }
 
 header img{
-    max-width: 40px;
+    max-width: 50px;
+    display: flex;
 }
 
 header ul{
     display: flex;
-    gap: 1em;
+    gap: 3em;
     font-family: "Courier New", Courier, monospace;
     color: white;
     font-weight: bold;
+    font-size: larger;
 }
+
+.section_menu{
+    margin-right: 50px;
+}
+
+.linkedin{
+    margin-left: 150px;
+}
+
