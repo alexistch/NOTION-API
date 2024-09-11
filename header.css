@@ -3,7 +3,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    background-color: rgb(71, 125, 188);
+    background-color: rgb(29, 29, 30);
 }
 
 header img{
@@ -13,4 +13,6 @@ header img{
 header ul{
     display: flex;
     gap: 1em;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
 }

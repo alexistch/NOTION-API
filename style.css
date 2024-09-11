@@ -1,5 +1,6 @@
 @import url(header.css);
-
+@import url(main_section.css);
+@import url(second_section.css);
 
 * {
 	margin: 0;
