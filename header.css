@@ -15,4 +15,5 @@ header ul{
     gap: 1em;
     font-family: "Courier New", Courier, monospace;
     color: white;
+    font-weight: bold;
 }

@@ -1,34 +1,55 @@
-.main_section {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	padding: 2em;
-	align-items: center;
-	background-image: url("bckg.jpg");
-	background-position: center;
-	min-height: 50dvh;
-	background-size: cover;
-	gap: 1em;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+
+.main_section div{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 2em;
+    align-items: flex-start; /* Aligne les éléments à gauche */
+    background-image: url("bckg.jpg");
+    background-position: center;
+    min-height: 50dvh;
+    background-size: cover;
+    gap: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 
 
+.main_section h1 {
+    color: white;
+    font-size: 2em; /* Augmente la taille du titre */
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
 .main_section p {
-	max-width: 400px;
-	padding: 1em;
-	background-color: rgb(255 255 255 / 29%);
-	backdrop-filter: blur(3px);
-	border-radius: 4px;
-	border: 1px solid #ffffff82;
+    max-width: 400px;
+    padding: 1em;
+    backdrop-filter: blur(3px);
+    border-radius: 4px;
+    color: white;
 }
 
 .main_section button {
-	padding: 1em;
-	margin-top: 1em;
-	border: none;
-	background-color: rgba(39, 39, 39, 0.568);
-	color: white;
-	cursor: pointer;
-}
-h1 {
+    padding: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: none;
+    background-color: rgba(108, 108, 108, 0.568);
     color: white;
+    cursor: pointer;
+}
+
+.photo{
+    max-width: 40px;
+}
+
+.main_section img {
+    max-width: 200px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre légère */
+    margin-left: 2em; /* Espace entre texte et image */
 }
