@@ -1,0 +1,16 @@
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(71, 125, 188);
+}
+
+header img{
+    max-width: 40px;
+}
+
+header ul{
+    display: flex;
+    gap: 1em;
+}
