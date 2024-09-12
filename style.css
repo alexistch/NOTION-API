@@ -21,3 +21,9 @@ a {
 a:hover {
 	color: red;
 }
+
+
+body {
+    margin: 0;
+    padding-top: 80px; /* Ajuste cette valeur à la hauteur de ta nav pour que le contenu ne se chevauche pas */
+}
