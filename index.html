@@ -6,49 +6,39 @@
     <link rel="stylesheet" href="style.css">
     <title>ALEXIS TCHOULEV</title>
 </head>
+
 <body>
     <header class="header">
         <nav>
+            <img src="IMG/Logo_Efrei_2022.svg.png" class="efrei"></img>  
 
             <a href="https://www.linkedin.com/in/alexis-tchoulev-b46a5a261/" class="linkedin">
                 <img src="lnkdn.png" alt="icon lnkdn">
             </a>
-            
 
-            <nav>
             <ul class="section_menu">
                 <li><a href="#home">Accueil</a></li>
                 <li><a href="CV_CYBER_ALEXIS_TCHOULEV_04.2024 (1).pdf" target="_blank">CV</a></li>
-                <li>Projets</li>
+                <li><a href="#third_sections">Projets</a></li>
                 <li><a href="#contact-form">Contact</a></li>
             </ul>
-            </nav>
-
-        </nav>   
-
+        </nav>
     </header>    
     
     <main>
         <section class="main_section" id="home">
             <div class="contenu_main">
-            <h1>Bienvenue sur mon portefolio</h1>
-            <p>
-                Je m'appelle Alexis TCHOULEV, j'ai 21 ans et je suis actuellement élève en Bachelor 3 à l'EFREI.
-            </p>
-            <button id="btn">
-                <a href="#contact-form">
-                Me contacter
-                </a>
-            </button>
+                <h1>Bienvenue sur mon portefolio</h1>
+                <p>Je m'appelle Alexis TCHOULEV, j'ai 21 ans et je suis actuellement élève en Bachelor 3 à l'EFREI.</p>
+                <button id="btn">
+                    <a href="#contact-form">Me contacter</a>
+                </button>
             </div>
-
             <img src="photo.jpg" alt="photo">
-
         </section>
-       
         
-        <section class="second_section">
-            <div class="contact-form" id="contact-form">
+        <section class="second_section" id="contact-form">
+            <div class="contact-form">
                 <h2>Contactez-moi</h2>
                 <form action="#" method="POST">
                     <div class="form-group">
@@ -79,13 +69,33 @@
                     <button type="submit">Envoyer</button>
                 </form>
             </div>
+        </section>
+
+        <!-- Troisième section (Mes projets) -->
+        <section class="third_sections" id="third_sections">
+            <div class="projets">
+                <div class="container">
+                    <h2>Mes différents projets</h2>
+                    <p>Ici, vous retrouverez mes différents projets.</p>
+                </div>
+    
+                <!-- Carrousel d'images -->
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <a href="https://www.vinted.fr/member/34521937"><img src="IMG/Design-2.png" alt="Projet 1"><span>Projet 1</span></a>
+                        <a href="#"><img src="IMG/Design-2.png" alt="Projet 2"><span>Projet 2</span></a>
+                        <a href="#"><img src="IMG/Design-2.png" alt="Projet 3"><span>Projet 3</span></a>
+                    </div>
+                
+                    <!-- Contrôles du carrousel (flèches de navigation) -->
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
-    <footer>
-        
-    </footer>
-
-    
+    <footer></footer>
 </body>
 </html>

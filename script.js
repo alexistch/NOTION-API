@@ -51,3 +51,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     animateBackground();
 });
+
+let currentSlide = 0;
+
+function moveSlide(direction) {
+    const carouselImages = document.querySelector('.carousel-images');
+    const totalSlides = carouselImages.children.length;
+    
+    currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+    
+    const translateX = -currentSlide * 100;
+    carouselImages.style.transform = `translateX(${translateX}%)`;
+}

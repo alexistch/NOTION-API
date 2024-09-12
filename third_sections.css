@@ -1,0 +1,92 @@
+.third_sections {
+    display: flex;
+    justify-content: center;
+    background-image: url("bckg.jpg");
+    background-position: center;
+    min-height: 60vh;
+    background-size: cover;
+    padding: 50px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projets {
+    padding: 20px; /* Réduction du padding */
+    text-align: center;
+    width: 40%; /* Réduction de la largeur à 40% */
+    margin: 0 auto;
+}
+
+.projets h2 {
+    font-size: 24px; /* Réduction de la taille du titre */
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.projets p {
+    font-size: 14px; /* Réduction de la taille du texte */
+    margin-bottom: 20px; /* Réduction de l'espacement */
+    color: #fffafa;
+}
+
+.carousel {
+    position: relative;
+    max-width: 60%; /* Réduction de la largeur du carrousel */
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images a {
+    flex: 1 0 100%;
+    display: block;
+    position: relative; /* Nécessaire pour placer le titre sous l'image */
+}
+
+.carousel-images img {
+    width: 60%; /* Réduction de la taille des images */
+    height:fit-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-images span {
+    display: block;
+    margin-top: 5px; /* Espacement réduit entre l'image et le titre */
+    font-size: 12px; /* Réduction de la taille du texte */
+    color: #ffffff;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 3px; /* Réduction du padding */
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px; /* Taille réduite du bouton */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.prev {
+    left: 5px; /* Ajustement de la distance pour être visible */
+}
+
+.next {
+    right: 5px; /* Ajustement de la distance pour être visible */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
