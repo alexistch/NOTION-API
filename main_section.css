@@ -49,7 +49,7 @@
     max-width: 300px;
     max-height: 300px;
     border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombre légère */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1); /* Ombre légère */
     margin-left: 2em; /* Espace entre texte et image */
     margin-top: 150px;
     margin-right: 100px;

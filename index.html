@@ -17,11 +17,10 @@
 
             <nav>
             <ul class="section_menu">
+                <li><a href="#home">Accueil</a></li>
                 <li><a href="CV_CYBER_ALEXIS_TCHOULEV_04.2024 (1).pdf" target="_blank">CV</a></li>
                 <li>Projets</li>
-                <li>Contact</li>
-                <li>A propos</li>
-
+                <li><a href="#contact-form">Contact</a></li>
             </ul>
             </nav>
 
@@ -30,13 +29,17 @@
     </header>    
     
     <main>
-        <section class="main_section">
+        <section class="main_section" id="home">
             <div class="contenu_main">
             <h1>Bienvenue sur mon portefolio</h1>
             <p>
                 Je m'appelle Alexis TCHOULEV, j'ai 21 ans et je suis actuellement élève en Bachelor 3 à l'EFREI.
             </p>
-            <button id="btn">Me contacter</button>
+            <button id="btn">
+                <a href="#contact-form">
+                Me contacter
+                </a>
+            </button>
             </div>
 
             <img src="photo.jpg" alt="photo">
@@ -45,11 +48,37 @@
        
         
         <section class="second_section">
-            <h2>Second title</h2>
-            <p>
-                TEST 2
-            </p>
-        </section>
+            <div class="contact-form" id="contact-form">
+                <h2>Contactez-moi</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telephone">Téléphone :</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
     </main>
 
     <script src="script.js"></script>

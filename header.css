@@ -1,3 +1,11 @@
+header{
+    position: fixed; /* La barre de navigation est fixée */
+    top: 0; /* La fixer en haut de la page */
+    width: 100%; /* Assurer que la nav prend toute la largeur */
+    z-index: 1000; /* Pour s'assurer qu'elle reste au-dessus des autres éléments */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : Ajouter un peu d'ombre */
+}
+
 header nav{
     display: flex;
     justify-content: space-between;
