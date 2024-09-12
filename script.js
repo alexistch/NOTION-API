@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     function animateBackground(section) {
         let positionX = 50; // Position de départ en X
         let positionY = 50; // Position de départ en Y
-        let speedX = 0.2; // Vitesse du déplacement en X
-        let speedY = 0.2; // Vitesse du déplacement en Y
+        let speedX = 0.05; // Vitesse du déplacement en X
+        let speedY = 0.05; // Vitesse du déplacement en Y
 
         function animate() {
             positionX += speedX;
