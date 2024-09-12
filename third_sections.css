@@ -1,9 +1,9 @@
 .third_sections {
     display: flex;
     justify-content: center;
-    background-image: url("bckg.jpg");
+    background-image: url("snow-covered-mountains-northern-india.jpg");
     background-position: center;
-    min-height: 60vh;
+    min-height: 100vh;
     background-size: cover;
     padding: 50px 0;
     font-family: 'Poppins', sans-serif;
@@ -13,7 +13,7 @@
     padding: 20px; /* Réduction du padding */
     text-align: center;
     width: 40%; /* Réduction de la largeur à 40% */
-    margin: 0 auto;
+    margin-top: 200px;
 }
 
 .projets h2 {

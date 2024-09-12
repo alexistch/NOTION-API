@@ -1,18 +1,19 @@
 .second_section{
     display: flex;
     justify-content:space-evenly;
-    background-image: url("bckg.jpg");
+    background-image: url("3d-rendering-abstract-black-white-neon.jpg");
     background-position: center;
     min-height: 90vh; /* Occupe toute la hauteur de la page */
     background-size: cover;
-    gap: 1em;
+    gap: 3em;
     font-family: 'Poppins', sans-serif;
 
 }
 
 
+
 .contact-form {
-	margin-top: 20px;
+	margin-top: 90px;
 	margin-bottom: 20px;
     background-color: white;
     padding: 20px 40px;
