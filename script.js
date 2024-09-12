@@ -3,8 +3,8 @@
     const section = document.querySelector('.main_section');
     let positionX = 50; // Position de départ en X
     let positionY = 50; // Position de départ en Y
-    let speedX = 0.6; // Vitesse du déplacement en X
-    let speedY = 0.6; // Vitesse du déplacement en Y
+    let speedX = 0.2; // Vitesse du déplacement en X
+    let speedY = 0.2; // Vitesse du déplacement en Y
 
     function animateBackground() {
         positionX += speedX;
@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const section = document.querySelector('.second_section');
     let positionX = 50; // Position de départ en X
     let positionY = 50; // Position de départ en Y
-    let speedX = 0.6; // Vitesse du déplacement en X
-    let speedY = 0.6; // Vitesse du déplacement en Y
+    let speedX = 0.2; // Vitesse du déplacement en X
+    let speedY = 0.2; // Vitesse du déplacement en Y
 
     function animateBackground() {
         positionX += speedX;
